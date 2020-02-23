@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+header {
+	width:1020px;
+	height: 89px;
+	background-color: #2d303a;
+		
+}
+h1 {
+	width:200px;
+	font-size: 24px;
+	line-height: 6px;
+	color: #ffffff;
+	font-family: "Lato";
+	font-weight: 700;
+	text-align: left;
+	padding-top:41px;
+	padding-left:40px;
+	float: left;
+}
+a {color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+}
+nav {
+	padding-top: 39px;
+	text-align: right;
+}
+li  {
+	display: inline;
+	list-style-type: none;
+	line-height: 12px;
+	font-family: "Lato";
+	font-size: 12px;
+	}
+.li2:before {
+	content:"·";
+	color: gray;
+	padding-right: 12px;
+}
+.li3:before {
+	content:"·";
+	color: gray;
+	padding-right: 12px;
+}
+.li4:before {
+	content:"·";
+	color: gray;
+	padding-right: 12px;
+}
+.li5:before {
+	content:"·";
+	color: gray;
+	padding-right: 12px;
+}
+.li1 {
+	padding-right: 10px;
+}
+.li2 {
+	padding-right: 9px;
+}
+.li3 {
+	padding-right: 9px;
+}
+.li4 {
+	padding-right: 10px;
+}
+.li5 {
+	padding-right: 40px;
+}
+.Slider {
+	width: 1020px;
+	height: 594px;
+	background-color: #f06c64;
+}
+.tophr {
+	border: none;
+	width: 1020px;
+	height: 6px;
+	background-color: #323746;
+}	
+.vertical {
+	position: absolute;
+	top: 148px;
+	left: 112px;
+	z-index:3;
+}
+.horizontal{
+	position: absolute;
+	top: 148px;
+	left: 547px;
+	transform: rotate(90deg);
+	z-index:3;
+}
+.verticalShadow {
+	position: absolute;
+	top: 148px;
+	left: 112px;
+}
+.horizontalShadow {
+	position: absolute;
+	top: 269px;
+	left: 426px;
+}
+.verticalScreen {
+	position: absolute;
+	top: 210px;
+	left: 123px;
+	z-index:4;
+}
+.horizontalScreen {
+	position: absolute;
+	top: 280px;
+	left: 482px;
+	z-index:4;	
+}
+.bottomhr {
+	border: 0px;
+	width: 1020px;
+	height: 6px;
+	background-color: #ea676b;
+}
+ footer {
+	width: 1020px;
+	height: 501px;
+	background-color: #f2f2f2;
+}
+.grid {
+  width: 1020px;
+  height: 495px;
+  display:grid;
+  grid-template-columns:102px 250px 75px 235px 80px 250px;
+  grid-template-rows: 169px 150px 150px;
+  
+}
+.a {
+	grid-column: 1/ span 6;
+}
+.big {
+	font-size: 18px;
+	line-height: 18px;
+	color: #666d89;
+	font-family: "Lato";
+	font-weight: 700;
+	text-align: justify;
+}
+.small {
+	width: 219px;
+	height: 128px;
+	font-size: 12px;
+	line-height: 21px;
+	color: #767e9e;
+	font-family: "Lato";
+	font-weight: 400;
+	text-align: justify;
+}
+.Services {
+	font-size: 30px;
+	line-height: 18px;
+	color: #666d89;
+	font-family: "Lato";
+	font-weight: 900;
+	text-align: left;
+	padding-top:69;
+	padding-left:40;
+}
+.Fusce {
+	width: 940px;
+	height: 57px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #767e9e;
+	font-family: "Lato";
+	font-weight: 300;
+	text-align: justify;
+	padding-top:26;
+	padding-left:40;
+	word-spacing: -1px;
+}
+.boxB {
+	padding-top: 52;
+	padding-left: 41;
+}
+.boxD {
+	padding-top: 51;
+	padding-left: 9;
+}
+.boxF {
+	padding-top: 51;
+	padding-left: 19px;
+}
+.boxH {
+	padding-top: 24px;
+    padding-left: 41px;
+}
+.boxJ {
+	padding-top: 24px;
+    padding-left: 8px;
+}
+.boxL {
+	padding-top: 24px;
+    padding-left: 18px;
+}
+.footerhr {
+	border: 0px;
+	width: 1020px;
+	height: 6px;
+	background-color: #ffffff;
+}.star {
+	color: red;
+}
+.boxC .big {
+	padding-top: 49px;
+	padding-left: 18px;
+}
+.boxC .small {
+	padding-top: 10px;
+	padding-left: 18px;
+}
+.boxE .big {
+	padding-top: 49px;
+	padding-left: 12px;
+}
+.boxE .small {
+	padding-top: 10px;
+	padding-left: 13px;
+}
+.boxG .big {
+	padding-top: 49px;
+	padding-left: 19px;
+}
+.boxG .small {
+	padding-top: 10px;
+	padding-left: 18px;
+}
+.boxI .big {
+	padding-top: 21px;
+    padding-left: 18px;
+}
+.boxI .small {
+	padding-top: 11px;
+	padding-left: 19px;
+	word-break: break-all;
+}
+.boxK .big {
+	padding-top: 21px;
+    padding-left: 12px;
+}
+.boxK .small {
+	padding-top: 11px;
+    padding-left: 12px;
+}
+.boxM .big {
+	padding-top: 21px;
+    padding-left: 19px;
+}
+.boxM .small {
+	padding-top: 11px;
+    padding-left: 17px;
+}
+.String2 {
+	word-spacing: -1px;
+	letter-spacing: 0.15px;
+}
+.chevL {
+	position: absolute;
+    padding-top: 281px;
+    padding-left: 42px;
+}
+.chevR {
+    position: absolute;
+    padding-top: 281px;
+    padding-left: 964px;
+}
