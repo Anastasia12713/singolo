@@ -4,13 +4,17 @@
 }
 body {
 	width: 1020px;
-	margin: auto;
+	margin: 0 auto;
 	font-family: "Lato";
+	max-width: 1020px;
 }
 .Portfolio {
-	height: 870px;
+	height: 864px;
 	background-color: #2d303a;
 	margin: auto;
+	border-style: solid;
+	border-bottom-color: #323746;
+	border-width: 0px 0px 6px 0px;
 }
 .Portfolio__Title {
 	padding-bottom: 10px;
@@ -85,18 +89,14 @@ li {
     padding-top: 19px;
 	overflow: hidden;
 }
-.PortfolioLine {
-	width: 1020px;
-	height: 6px;
-	background-color: #323746;
-	border: 0px;
-	margin-top: 67px;
-}
 .AboutUs {
 	width: 1020px;
 	height: 728px;
 	background-color: #f2f2f2;
 	margin: auto;
+	border-style: solid;
+	border-bottom-color: #ffffff;
+	border-width: 0px 0px 6px 0px;
 }
 .AboutUs__Title {
 	padding-bottom: 10px;
@@ -141,7 +141,6 @@ li {
 	width: 152px;
 	justify-content: space-between;
 	margin-top: 25px;
-	
 }
 .column__ikon_ikon1 {
 	margin-left: 2px;
@@ -149,10 +148,5 @@ li {
 .column__ikon_ikon2 {
 	margin-left: 1px;
 }
-.AboutUsLine{
-	height: 6px;
-	background-color: #ffffff;
-	border: 0px;
-	margin-top: 54px;
-}
+
 	
