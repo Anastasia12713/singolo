@@ -1,0 +1,145 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	width: 1020px;
+	margin: 0 auto;
+	font-family: "Lato";
+	max-width: 1020px;
+}
+.GetAQuote {
+	height: 650px;
+	background-color: #f06c64;
+	border-style: solid;
+	border-bottom-color: #ea676b;
+	border-width: 0px 0px 6px 0px;
+}
+.GetAQuote__Title {
+	padding-bottom: 10px;
+	padding-top: 71px;
+    padding-left: 40px;
+	color: white;
+}
+.Title {
+	font-size: 30px;
+	line-height: 18px;
+	color: #666d89;
+	font-weight: 900;
+	text-align: left;
+	letter-spacing: 0.1px;
+}
+.Title_white {
+	color: white;
+}
+.GetAQuote_Text{
+	padding-left: 40px;
+	padding-top: 17px;
+}
+.Text {
+	width: 940px;
+	height: 41px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #767e9e;
+	font-weight: 300;
+	text-align: justify;
+}
+.Text_white {
+	color: white;
+}
+.Form {
+	margin-top: 62px;
+	margin-left: 40px;
+	width: 619px;
+	float: left;
+	margin-right: 21px;
+}
+.Form__field {
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 400;
+	text-align: left;
+	width: 619px;
+	height: 38px;
+	border-radius: 5px;
+	background-color: #d6564f;
+	border: 0px;
+	margin-bottom: 16px;
+	padding-left: 14px;
+}
+input::-webkit-input-placeholder {
+	color: white; 
+}
+.Form__field_message {
+	height: 202px;
+	padding-bottom: 166px;
+}
+.Contact {
+	margin-top: 62px;
+	text-align: left;
+	color: #f0d8d9;
+	display: flex;
+	flex-direction: column;
+}
+.Contact__Title {
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 900;
+	text-align: left;
+}
+.Contact__Text {
+	height: 85px;
+	width: 300px;
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 400;
+	margin-top: 10px;
+	letter-spacing: -0.1px;
+	text-align: justify;
+	margin-bottom: 23px;
+}	
+.Contact__link {
+	font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;	
+	padding-left: 10px;
+}
+.Contact__link:hover {
+	text-decoration: underline;
+}
+.Contact__Location {
+	margin-left: 3px;
+}	
+.Contact__Phone {
+	margin-left: 1px;
+	margin-top: -1px;
+}		
+footer {
+	height: 76px;
+	background-color: #2d303a;
+}
+.footer__copyright {
+	padding-left: 42px;
+    padding-top: 30px;
+    display: flex;
+    width: 95px;
+    float: left;
+	color: white;
+	font-size: 10px;
+	font-size: 11.5px;
+}
+.footer__ikon {
+	display: flex;
+	float: right;
+	width: 152px;
+	justify-content: space-between;
+	margin-right: 39px;
+	margin-top: 22px;
+}
+a:hover {
+	 transform: scale(1.2);
+}
